@@ -663,3 +663,220 @@ height: 40px;
   font-weight: 600;
   color: #212020;
 }
+
+/* Mobile */
+@media (max-width: 767px) {
+  nav.navbar {
+    width: 90%;
+    left: 5%;
+  }
+  
+  .star-icon {
+    right: -5%;
+    top: 30%;
+  }
+  
+  .banner h1 {
+    margin-left: 10%;
+    font-size: 42px;
+    line-height: 52px;
+    margin-top: 8%;
+  }
+  
+  .banner p {
+    margin-left: 10%;
+    width: 80%;
+  }
+  
+  .banner button {
+    margin-left: 10%;
+  }
+  
+  .header-info img {
+    width: 40%;
+    left: 30%;
+  }
+  
+  .watch-video {
+    margin-top: 20px;
+    margin-left: 10%;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+  nav.navbar {
+    width: 80%;
+    left: 10%;
+  }
+  
+  .banner h1 {
+    margin-left: 15%;
+  }
+  
+  .banner p {
+    margin-left: 15%;
+    width: 70%;
+  }
+  
+  .banner button {
+    margin-left: 15%;
+  }
+  
+  .header-info img {
+    width: 30%;
+    left: 20%;
+  }
+}
+
+/* Laptop */
+@media (min-width: 1025px) {
+  nav.navbar {
+    width: 70%;
+    left: 15%;
+  }
+  
+  .banner h1 {
+    margin-left: 20%;
+  }
+  
+  .banner p {
+    margin-left: 20%;
+    width: 60%;
+  }
+  
+  .banner button {
+    margin-left: 20%;
+  }
+}
+
+/* //////////////////responsive for feature //////////////////// */
+
+
+/* Mobile */
+@media (max-width: 767px) {
+  .features {
+    margin-left: 3%;
+  }
+
+  .feature-txt-bx {
+    width: 90%;
+  }
+
+  .feature-txt-bx h1 {
+    font-size: 36px; /* Adjust as needed */
+  }
+
+  .feature-txt-bx h2 {
+    font-size: 16px; /* Adjust as needed */
+  }
+
+  .feature-txt-bx p {
+    font-size: 16px; /* Adjust as needed */
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .features {
+    margin-left: 5%;
+  }
+
+  .feature-txt-bx {
+    width: 80%;
+  }
+}
+
+/* ///////////////////////////responsive for testimonials////////////////// */
+
+@media (max-width: 767px) {
+  .testimonial-subheading {
+    font-size: 32px;
+  }
+
+  .testimonal-bx {
+    flex-direction: column;
+  }
+
+  .head-bx {
+    font-size: 24px;
+  }
+
+  .testimonial-txt-bx {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .testimonial-subheading {
+    font-size: 40px;
+  }
+
+  .head-bx {
+    font-size: 28px;
+  }
+}
+
+/* Laptop */
+@media (min-width: 1025px) {
+  .testimonial-subheading {
+    font-size: 48px;
+  }
+}
+/* ////////////////////////// responsive for ellipse /////////////////// */
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .card-img {
+    margin-top: 15%; /* Adjust as needed */
+    width: 100%; /* Adjust as needed */
+    border-radius: 0;
+  }
+  
+  .img-stack {
+    width: 40%; /* Adjust as needed */
+    margin-top: 5%; /* Adjust as needed */
+    right: 5%; /* Adjust as needed */
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .card-img {
+    margin-top: 10%; /* Adjust as needed */
+    width: 100%; /* Adjust as needed */
+    border-radius: 0;
+  }
+  
+  .img-stack {
+    width: 60%; /* Adjust as needed */
+    margin-top: 5%; /* Adjust as needed */
+    right: 5%; /* Adjust as needed */
+  }
+}
+
+/* ////////responsive for footer part////////////////// */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer-content {
+    width: 80%; /* Adjust as needed */
+  }
+}
+
+/* Mobile devices (up to 767px) */
+@media (max-width: 767px) {
+  .footer-content {
+    width: 90%; /* Adjust as needed */
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-lists {
+    align-items: center;
+    text-align: center;
+  }
+}
+
